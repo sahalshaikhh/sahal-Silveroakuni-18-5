@@ -1,0 +1,68 @@
+<html>
+
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            margin: 23px;
+        }
+
+        #g1 {
+            color: rgb(135, 255, 80);
+            background-color: rgb(32, 7, 12);
+        }
+
+        #body {
+            color: rgb(0, 0, 0);
+            background-color: rgb(197, 179, 164);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+
+        form {
+            border: 2px solid black;
+            background-color: aliceblue;
+        }
+    </style>
+    <link type="text/css" href="css2.css" rel="stylesheet">
+</head>
+
+<body id="body">
+    <h1>
+        Forms using css:
+    </h1>
+    <form>
+        frist name:<input type="text" id="fname" autofocus placeholder="enter your frist name" maxlength="7">
+        <hr>
+        last name:<input type="text" id="lname" autofocus placeholder="enter your last  name" maxlength="15">
+        <hr>
+        <input type="radio" id="g1" name="gender" /><label for="g1">male</label>
+        <input type="radio" id="g2" name="gender" /><span> female </span>
+        <hr>
+        <textarea rows="5" placeholder="enter address here..." maxlength="200"></textarea>
+        <hr>
+        <input type="date">
+        <hr>
+        <input type="color">
+        <hr>
+        <input type="time">
+        <hr>
+        <input type="range">
+        <hr>
+        <input type="checkbox">Accept the condition
+        <hr>
+        <input type="submit" value="submit">
+        <hr>
+        <fieldset style="background-color: #965454;">
+            <legend>sign in</legend>
+            <span> username:</span><br>
+            <input type="text" placeholder="enter username here.." maxlength="50" autofocus><br>
+            <span>password:</span><br>
+            <input type="password" placeholder="enter password here.." maxlength="15"><br><br>
+            <input type="button" value="sing in"><br>
+        </fieldset>
+
+    </form>
+</body>
+
+</html>
